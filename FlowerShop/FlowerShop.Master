@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FlowerShop.Master.cs" Inherits="FlowerShop.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server" class="body">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="MyStyle.css" />
+    <script src="ScriptFile.js" type="text/javascript">  
+</script>  
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body >
+    <h1 >FLOWER SHOP ONLINE</h1>
+    <h2></h2>
+   
+    <form id="form1" onsubmit="return userValid()" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+     <footer>Thank you for shopping at Flowershop. Have a nice day</footer>
+</body>
+</html>
